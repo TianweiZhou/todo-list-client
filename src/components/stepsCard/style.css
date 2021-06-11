@@ -1,0 +1,11 @@
+div{
+    background-color: az;
+    border-radius: 5px;
+    box-shadow: beige;
+    display: flex;
+    text-align: center;
+}
+h3{
+    display: inline-block;
+    float: left;
+}

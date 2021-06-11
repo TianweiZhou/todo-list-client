@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import StepsCard from '../../components/stepsCard/index';
+import { PageTitle } from './style';
 
 export default function stepsPage() {
 	return (
-		<div>
-            <h1>Steps page</h1>
-		</div>
+		<>
+			<PageTitle>Steps page</PageTitle>
+			<StepsCard />
+		</>
 	)
 };
